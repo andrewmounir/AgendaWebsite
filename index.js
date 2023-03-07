@@ -82,7 +82,7 @@ function submitNote(marked) {
   console.log(container);
   // add H1 Tag
   var newElement = [
-    $(`<h1 class = "noteItem" id="note${num}">${num}: ${container}</h1>`),
+    $(`<h1 class = "noteItem" id="note${num}">${container}</h1>`),
     $(
       `<button id=MR${num} class="markButton buttonMargin btn btn-success btn-sm">Mark done</button>`
     ),

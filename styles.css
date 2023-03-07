@@ -73,6 +73,8 @@
   position: relative;
   font-size: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 15%;
+  top: 17%;
 }
 /* .deleteButton {
   position: absolute;
@@ -113,8 +115,15 @@
 
 .buttonMargin {
   margin-left: 10%;
-}
+ 
 
+  transform: translateY(141%);
+}
+.deleteButton {
+
+
+  transform: translateY(141%);
+}
 /* no need */
 
 .completedNotes {
